@@ -1,5 +1,8 @@
-alias editrc='vi ~/.bashrc'
-alias sourcerc='source ~/.bashrc'
+alias editrc="vi ~/.bash_profile"
+alias sourcerc="source ~/.bash_profile"
+
+alias server="ssh robbert@149.210.235.58"
+alias jenkins="ssh robbert@37.97.149.78"
 
 alias g="git"
 alias ga="git add"
@@ -12,7 +15,6 @@ alias gc="git commit"
 alias gca="git commit -a"
 
 alias gch="git checkout"
-
 alias gl="git log --graph --oneline --decorate --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %Cblue[%an]%Creset' --date=relative"
 alias gdl="gl --cherry-pick"
 
